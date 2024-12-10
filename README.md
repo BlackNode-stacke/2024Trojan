@@ -3,17 +3,11 @@ Trojan 2024: A Multi-Platform Information Gathering Script .
 Features :
 ===========
 Screenshots
-===========
 Keystrokes
-===========
 Hardware and network information
-===========
 Geolocation data
-===========
 Front camera captures
-===========
 All data is securely delivered via email for your convenience.
-===========
 
 Key Features
 ============
