@@ -1,7 +1,6 @@
 Trojan 2024: A Multi-Platform Information Gathering Script .
 
-Features :
-
+Features 
 Screenshots
 Keystrokes
 Hardware and network information
