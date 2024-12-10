@@ -1,7 +1,0 @@
-opencv-python>=4.0.0
-pillow>=9.0.0
-pynput>=1.7.6
-colorama>=0.4.6
-requests>=2.0.0
-beautifulsoup4>=4.0.0
-
