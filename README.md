@@ -1,4 +1,4 @@
-Canvas Trojan 2024: A Multi-Platform Information Gathering Script .
+Trojan 2024: A Multi-Platform Information Gathering Script .
 
 Features :
 
