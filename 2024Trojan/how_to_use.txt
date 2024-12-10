@@ -1,0 +1,19 @@
+Hello and welcome
+First of all, I want to explain about this code and how to use it correctly.
+
+1. if you are working on the Python page, it doesn't matter what editor you use, you should run this command in your console (pip install -r requirements.txt) so that the required libraries are installed and the syntax is updated.
+
+2. Then execute the code called Run, after running, wait a few moments, after you, the sender's email will ask you to enter the desired email that you want to be used to send information to your other email.
+
+3. Now it will ask you for a password that you should not enter your email password, you should go to this link (https://myaccount.google.com/apppasswords) Now select the same email that you registered as the sender in input and Enter the password of your email and press enter. When you get to the next page, it will show you app passowrd. Now you write (python) in that field and press enter.
+Now give you a password, for example like this (gfga dgew gnww fadv)
+it shows, copy it and paste it in the password input field and press enter .
+
+4. Now that you have gone through the steps, the last option will ask you to receive an email so that the information is sent from the sender's email to the recipient's email. Enter your recipient's email in the input field and press enter and after a few moment just stop the code or ctrl f2 .
+
+5. when you stop the code you should see your credentials in line 3,4,5 .
+
+6. Now that you have tested the code and entered your credentials for the first time, let's go to the main task. Please open the commands.txt file.
+
+7. After entering your credentials, if you come across a page that says change have been made to [YourPath], click on the load file system changes option.
+
