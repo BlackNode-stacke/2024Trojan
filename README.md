@@ -130,6 +130,15 @@ The recipient email address for receiving data.
 Follow the platform-specific instructions to execute the script and ensure that data is sent correctly to your email.
 
 
+How it works .
+==
+When you run this command, Generate a standalone executable so you can send to target.
+
+In your current folder, i.e. 2024Trojan, a dist folder will be created, where your executable file will be placed and you can send it to the target, it will start running when clicked.
+
+
+
+
 Support
 ==
 BTC Wallet: bc1q3kqdczj6q780y642yq9dvvfuk43g5a5uxn83f2
