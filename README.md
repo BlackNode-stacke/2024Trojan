@@ -129,6 +129,8 @@ The recipient email address for receiving data.
 
 Follow the platform-specific instructions to execute the script and ensure that data is sent correctly to your email.
 
+make sure you read the how_to_use.txt
+
 
 How it works .
 ==
